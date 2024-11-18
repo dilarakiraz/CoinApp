@@ -1,4 +1,4 @@
-package com.example.coinapp.presentation.coin_list
+package com.example.coinapp.crypto.presentation.coin_list
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -15,8 +15,8 @@ import androidx.compose.material3.HorizontalDivider
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.PreviewLightDark
 import androidx.compose.ui.unit.dp
-import com.example.coinapp.presentation.coin_list.components.CoinListItem
-import com.example.coinapp.presentation.coin_list.components.previewCoin
+import com.example.coinapp.crypto.presentation.coin_list.components.CoinListItem
+import com.example.coinapp.crypto.presentation.coin_list.components.previewCoin
 import com.example.coinapp.ui.theme.CoinAppTheme
 
 @Composable

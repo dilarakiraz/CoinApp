@@ -1,4 +1,4 @@
-package com.example.coinapp.util
+package com.example.coinapp.core.domain.util
 
 
 typealias DomainError = Error

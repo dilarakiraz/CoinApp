@@ -1,7 +1,7 @@
-package com.example.coinapp.presentation.coin_list
+package com.example.coinapp.crypto.presentation.coin_list
 
 import androidx.compose.runtime.Immutable
-import com.example.coinapp.presentation.models.CoinUi
+import com.example.coinapp.crypto.presentation.models.CoinUi
 
 @Immutable
 data class CoinListState(

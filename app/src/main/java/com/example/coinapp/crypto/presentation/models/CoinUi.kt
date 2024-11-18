@@ -1,9 +1,9 @@
-package com.example.coinapp.presentation.models
+package com.example.coinapp.crypto.presentation.models
 
 import android.icu.text.NumberFormat
 import androidx.annotation.DrawableRes
-import com.example.coinapp.domain.Coin
-import com.example.coinapp.util.getDrawableIdForCoin
+import com.example.coinapp.crypto.domain.Coin
+import com.example.coinapp.core.presentation.util.getDrawableIdForCoin
 import java.util.Locale
 
 data class CoinUi(

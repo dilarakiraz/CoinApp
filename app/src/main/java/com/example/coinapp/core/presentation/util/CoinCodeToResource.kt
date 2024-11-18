@@ -1,4 +1,4 @@
-package com.example.coinapp.util
+package com.example.coinapp.core.presentation.util
 
 import com.example.coinapp.R
 
