@@ -2,7 +2,6 @@ package com.example.coinapp.crypto.presentation.coin_list
 
 import com.example.coinapp.crypto.domain.CoinDataSource
 import kotlinx.coroutines.flow.MutableStateFlow
-import kotlinx.coroutines.flow.asStateFlow
 import androidx.lifecycle.viewModelScope
 import androidx.lifecycle.ViewModel
 import com.example.coinapp.core.domain.util.onError
@@ -35,7 +34,11 @@ class CoinListViewModel(
     fun onAction(action: CoinListAction) {
         when (action) {
             is CoinListAction.OnCoinClick -> {
-
+                _state.update {
+                    it.copy(
+                        selectedCoin = action.coinUi
+                    )
+                }
             }
         }
     }
