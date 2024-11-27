@@ -11,6 +11,7 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.aspectRatio
+import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
@@ -171,7 +172,7 @@ fun CoinDetailScreen(
                     visibleDataPointsIndices = startIndex..coin.coinPriceHistory.lastIndex,
                     unit = "$",
                     modifier = Modifier
-                        .fillMaxWidth()
+                        .fillMaxHeight()
                         .aspectRatio(16 / 9f)
                         .onSizeChanged { totalChartWidt = it.width.toFloat() },
                     selectedDataPoint = selectedDataPoint,
