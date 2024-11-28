@@ -172,7 +172,7 @@ fun CoinDetailScreen(
                     visibleDataPointsIndices = startIndex..coin.coinPriceHistory.lastIndex,
                     unit = "$",
                     modifier = Modifier
-                        .fillMaxSize()
+                        .fillMaxWidth()
                         .aspectRatio(16 / 9f)
                         .onSizeChanged { totalChartWidt = it.width.toFloat() },
                     selectedDataPoint = selectedDataPoint,
